@@ -154,3 +154,4 @@
 1. [Why does the main function have return type integer?](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c)
 2. [Capturing key presses without affecting the console?](https://stackoverflow.com/questions/421860/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed)
 3. [How do I generate a random number?](https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c)
+4. [Handling pull requests for small typos in a repository](https://softwareengineering.stackexchange.com/questions/419025/should-i-submit-a-pull-request-to-correct-minor-typos-in-a-readme-file)
