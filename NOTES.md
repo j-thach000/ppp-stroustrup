@@ -5,7 +5,7 @@
 4. Not thoroughly checking meaning of messages in GitHub before acting (no newline at end of file) resulting in duplicate pull request
 
 
-// Deriving Knowledge \
+// Deriving Knowledge
 0. Hardware
 - RAM is the computer's capacity to hold short-term single pieces of data, values
 - RAM can be thought of as numbered mailboxes that hold data while the program is running
@@ -18,7 +18,6 @@
     - Loops (iterative statements)
     - Arrays (most basic way to hold data)
     - Input + Output
-
 2. Functions
 
 // Insight
@@ -39,21 +38,6 @@
 - Experiment and play with examples to develop intuition of what breaks and works.
 - Write short programs using recently learned concepts.
 
-
-
-// Pedagogy (Stroustrup)
-- Blue = key concepts and techniques
-- Green = Advice
-- Red = Warning
-
-
-// PPP Header \  
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-
 // Pedagogy (Saad)
 - Introduce a fundamental concept
 - Show an example with application and motivation
@@ -63,7 +47,7 @@
 - Machine (directly understood by CPU, seen as 0s and 1s)
 - High-level (has to be translated for the machine, addresses readability and portability)
 
-// Compiling + Execution Process 
+// Compiling Process 
 1. Write source code with a high-level language
 2. Translate the source with a compiler
 3. Compiler produces an executable
