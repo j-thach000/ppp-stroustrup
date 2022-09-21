@@ -2,6 +2,7 @@
 1. Forgetting intended \n characters when moving down a line
 2. Incorrectly tracing literals in "" as being mathematically evaluated
 3. In boolean, values other than 0 become 1
+4. Not thoroughly checking meaning of messages in GitHub before acting (no newline at end of file) resulting in duplicate pull request
 
 
 // Deriving Knowledge
@@ -155,3 +156,4 @@
 2. [Capturing key presses without affecting the console?](https://stackoverflow.com/questions/421860/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed)
 3. [How do I generate a random number?](https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c)
 4. [Handling pull requests for small typos in a repository](https://softwareengineering.stackexchange.com/questions/419025/should-i-submit-a-pull-request-to-correct-minor-typos-in-a-readme-file)
+5. [Creating pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
