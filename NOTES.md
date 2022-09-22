@@ -47,6 +47,8 @@
 - blue = key concepts and techniques
 - green = advice
 - red = warning
+- Introduce a tool with a simple concept (what does the tool do)
+- Introduce more complex programs using the tool (solving problems with the tool without fighting against it)
 
 // PPP Header
 #include <iostream>
@@ -62,9 +64,12 @@
 // Compiling Process 
 1. Write source code with a high-level language
 2. Translate the source with a compiler
-3. Compiler produces an executable
-4. Executable is ran on hardware
-5. Hardware produces program results (runs the program's instructions)
+3. Produces machine code files
+
+// Linking Process
+1. Gather all object files and library files
+2. Check for cross-file dependencies
+3. Produce executable
 
 // Philosophy of C++ \
 "Trust the programmer" which results in a high degree of freedom (for better or worse)
