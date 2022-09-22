@@ -1,0 +1,85 @@
+# syntax
+// - comment
+    indicates the beginning of a comment in which statements after it are not read by the program
+    comments are used to provide information to humans about the program
+
+<< - insertion operator
+    indicates the direction data is moving in the form of output
+
+std::cout - object from <iostream> 
+    object that outputs data to console
+
+#include - directive 
+    before compilation there's the translation phase in which the .cpp file is scanned and the text is manipulated
+    the #include directive replaces the directive with the content of ex: <iostream>
+
+main() - main function
+    the function called by the program that is the starting point to execute statements
+
+------------------------------------------------------------------------------------------------------------------------
+
+# concepts
+C++
+    a general purpose programming language that focuses on giving the programmer freedom (aka trust the programmer)
+    also a large emphasis the ability to control memory management
+
+comment 
+    used to give information about the program to the reader
+    describe "what" for groups of statements as a high level overview
+    describe "why" for individual statements and "magic numbers"
+
+compiler
+    used to translate high level programming languages to machine language
+    it detects syntax errors which violate the language's rules
+
+compile-time error
+    an error occurring at compilation when the syntax of the language is violated
+
+executable
+    the result of linking object files and the standard library together 
+    it makes the computer hardware run a set of instructions
+
+function    
+    a named collection of statements that execute in sequential order
+
+header
+    *defining header file
+    at the top of the program
+    it's a file that acts as an interface between the separately compiled parts of the program (object files)
+    it allows these object files to access declarations which are just named entities (objects, variables, functions, etc.)
+
+IDE (integrated development environment)
+    a gui program with a suite of tools including:
+        - text editor
+        - compiler
+        - linker
+        - syntax check
+        - debugger
+
+library
+    a package of code made for reuse in other programs that provide a desired functionality
+
+linker  
+    a program that connects object code from the compilation process and library files
+    it also checks for cross-file dependencies
+    once those processes are done, it creates an executable which tells the hardware what to do
+
+object code 
+    machine code resulting from the compilation process in object files
+    it hasn't be linked up yet to all other relevant object files
+
+output  
+    the result of the program's execution
+
+program 
+    a set of instructions for the hardware to execute
+
+source code 
+    the code written in a high level language before it is compiled
+    it's a series of statements which act as instructions for the hardware
+
+statement
+    an instruction for the program to perform some action 
+    *difference between the statement making the program do something and the program making the computer do something
+
+
