@@ -43,6 +43,18 @@
 - Show an example with application and motivation
 - Practice on exercises with incremental difficulty
 
+// Pedagogy (PPP Stroustrup)
+- blue = key concepts and techniques
+- green = advice
+- red = warning
+
+// PPP Header
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+
 // Programming Languages
 - Machine (directly understood by CPU, seen as 0s and 1s)
 - High-level (has to be translated for the machine, addresses readability and portability)
