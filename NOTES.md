@@ -89,20 +89,12 @@
     - return (lets the program know it's ended)
 - functions (a named collection of instructions that execute sequentially)
 
+// PPP Bjarne's Header File (std_lib_facilities.h)
+1. Created for QOL while learning the language (don't worry about the libraries and convenient functions)
+2. keep_window_open() is called to keep the window open (doesn't work if input buffer not flushed)
 
 // C++ Libraries (code others have written, precompiled for reuse in other programs)
 1. iostream (read keyboard input and output text)
-
-// C++ Syntax
-- std::cin.get(); // get one more char from the user
-- std::cout << ""; // print text, "character output", only prints the number and not unnecessary trailing 0s
-- std::cin >> ; // scans for the first inputs that match the variable's data type
-- /* */ // multi-line comment
-- std::endl // creates a newline character, typically preceded by <<
-- \" \" to escape a quote inside a string literal
-- >> // extraction operator
-- << // insertion operator, no need for \n after it since the user's enter press moves to a new line 
-
 
 // Errors
 1. Compile/Syntax (violated grammar rules of the language)
@@ -127,9 +119,17 @@
 12. Use the IDE's automatic formatting
 13. Avoid situations that can cause undefined behavior, such as uninitialized variables 
 
-// Style
-1. If a line is split and includes an operator, the operator should go onto the next line
-2. Align comments and values for easier reading
+
+
+// Fundamental types
+1. int
+2. float
+3. double
+4. bool
+
+// Other relevant types
+1. string
+
 
 // Comments
 1. What (outside): describe what the library, function, or program does as a general overview
@@ -176,3 +176,4 @@
 5. [Creating pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 6. [An interview with Bjarne Stroustrup 4/22 - Time Spent on Learning Math](https://evrone.com/bjarne-stroustrup-interview)
 7. [Output precision without including a library](https://en.cppreference.com/w/cpp/io/ios_base/precision)
+8. [Formatting](https://www.learncpp.com/cpp-tutorial/whitespace-and-basic-formatting/)

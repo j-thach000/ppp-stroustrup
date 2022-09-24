@@ -4,7 +4,7 @@
     comments are used to provide information to humans about the program
 
 << - insertion operator
-    indicates the direction data is moving in the form of output
+    indicates the direction data is moving in 
 
 std::cout - object from <iostream> 
     object that outputs data to console
