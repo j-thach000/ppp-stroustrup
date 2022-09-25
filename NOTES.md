@@ -31,6 +31,7 @@
 - = is considered the assignment operator
 - C++ doesn't automatically initialize variables to certain value (like 0) and instead the default value is whatever value that memory address had (could just be random garbage which causes undefined behavior)
 - Instantiating is creating a new instance of an object, different from initializing a variable
+- With variables, they are of certain types 
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program
@@ -129,7 +130,8 @@
 
 // Other relevant types
 1. string
-
+    - a string read by the >> operator terminates after the first white space 
+    - ie it reads a single word and then stops
 
 // Comments
 1. What (outside): describe what the library, function, or program does as a general overview
@@ -148,9 +150,6 @@
 3. boolean - 0 is false and anything else is 1
 4. char - number range of -127 to 127
 
-// Rules (learncpp)
-1. All functions must have a main function. When the program runs, all the statements in main execute in sequential order.
-
 // Visual Studio Project Settings
 1. Keep build configuration in debug until ready to release
 2. [Compiler extensions](https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-compiler-extensions/)
@@ -168,7 +167,11 @@
 5. "-Wsign-conversion",
 6. "-Werror"
 
-// Miscellaneous
+// Misc
+1. If stuck in a loop of user input, Ctrl+Z creates an end-of-input character which ends the program
+2. Variable names must be letters, digits, or underscores and must start with a letter
+
+// Reference
 1. [Why does the main function have return type integer?](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c)
 2. [Capturing key presses without affecting the console?](https://stackoverflow.com/questions/421860/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed)
 3. [How do I generate a random number?](https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c)
