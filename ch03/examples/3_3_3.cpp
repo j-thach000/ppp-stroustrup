@@ -6,8 +6,8 @@
 int main()
 {
     std::cout << "Please enter your first and second names\n";
-    std::string first;
+    std::string first;          
     std::string second;
-    std::cin >> first >> second;
+    std::cin >> first >> second; // put immediate valid white-space sparated input into variables first and second
     std::cout << "Hello, " << first << " " << second << '\n';
 }
