@@ -24,7 +24,8 @@
 - If you can't teach something then you probably defaulted to memorization and repetition.
 - Programs are just collections of instructions that manipulate data for a certain result
 - As C++ is so vast, it's important to focus on what is possible vs memorizing how to do it
-- Defining a variable is naming some region of memory and reserving it for a value
+- A declaration is a statement that gives a name to an object
+- A definition is a declaration that sets aside memory for the object
 - Assignment is giving a value to a variable
 - An uninitialized variable has no value
 - Initialization is defining and assigning the variable at the same time (via copy =, or brace {})
@@ -149,6 +150,16 @@
 2. double - favor brace initialization to avoid narrowing conversion
 3. boolean - 0 is false and anything else is 1
 4. char - number range of -127 to 127
+- Very rare occasion to not intialize variables with types and value
+    - a variable defined just to store user input
+
+// Type Conversions
+1. Safe
+    - bool to char, int, or double
+    - char to int or double
+    - int to double**most useful
+2. Unsafe
+
 
 // Visual Studio Project Settings
 1. Keep build configuration in debug until ready to release
@@ -166,6 +177,11 @@
 4. "-Wextra",
 5. "-Wsign-conversion",
 6. "-Werror"
+
+// Style (PPP)
+1. snake case
+2. capital letters for types
+3. all capitals for macros
 
 // Misc
 1. If stuck in a loop of user input, Ctrl+Z creates an end-of-input character which ends the program
