@@ -1,9 +1,12 @@
 // Mistakes
-1. Forgetting intended \n characters when moving down a line
+1. Forgetting intended \n characters when moving down a line (they represent move to the new line)
 2. Incorrectly tracing literals in "" as being mathematically evaluated
 3. In boolean, values other than 0 become 1
 4. Not thoroughly checking meaning of messages in GitHub before acting (no newline at end of file) resulting in duplicate pull request
-
+5. Careless mistakes on data entry for print text
+6. Incorrectly using the text input process (define string variable, prompt cin, format output)
+7. Missing semicolons (they represent the statement is done)
+8. Repeatedly using std::cout when text is being outputted in consecutive lines (see drill 3_1 comment 2)
 
 // Deriving Knowledge
 0. Hardware
@@ -33,6 +36,7 @@
 - C++ doesn't automatically initialize variables to certain value (like 0) and instead the default value is whatever value that memory address had (could just be random garbage which causes undefined behavior)
 - Instantiating is creating a new instance of an object, different from initializing a variable
 - With variables, they are of certain types 
+- Brace initialization is there so we can make the compiler tell us when we're about to lose precision on a value
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program
@@ -51,6 +55,27 @@
 - red = warning
 - Introduce a tool with a simple concept (what does the tool do)
 - Introduce more complex programs using the tool (solving problems with the tool without fighting against it)
+- Drills: do every single one ("If you haven't done the drills, you have not "done" the book" - 0.1.2)
+- "Try this": complements drills and reinforces the just mentioned concept
+- Review Questions: seen as a complement to the exercises to review conceptual information whereas exercises reinforce practical
+- Exercises: do enough to push the limit of what you understand as difficult (no expectation to do all of them)
+
+// PPP Misc
+- Anything he mentions is "because you'll almost certainly need it" 
+- "One sitting" per chapter isn't meant to be taken literally, realistically the drill + review + a few exercises will take a few days
+- The language of the book is very understated and things such as "This is often useful" means it's quietly emphasized but extremely important
+- "What comes after this book?" - 0.1.3
+- don't try to give 100% coverage to a topic the first time around
+
+// Approach
+- Recommended 15 hours a week for self study, pacing at 2 chapters a week
+- Play around with as many chapter examples as possible
+- Note all key concepts and the blue/red/green markers
+- Do the drill
+- Punch in glossary terms in own words
+- Review 
+- Attempt exercises until I can identify the difficult ones
+- Try to solve at least one difficult one relative to own skill level
 
 // PPP Header
 #include <iostream>
@@ -115,7 +140,7 @@
 6. Treat warnings as errors
 7. Write comments liberally, as if explaining the program to someone who has no idea what the code does. Also, don't assumme you'll remember.
 8. Prefer \n over std::endl when outputting text to console (easier to embed into text and read quickly)
-9. Favor brace initialization (ex: int a {5}) to disallow narrowing conversion
+9. Favor brace initialization (ex: int a {5}) to disallow narrowing conversion (usually for very important values)
 10. Initialize variables upon creation 
 11. Lines no longer than 80 chars
 12. Use the IDE's automatic formatting
