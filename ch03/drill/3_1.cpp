@@ -9,7 +9,7 @@ int main()
     std::cin >> first_name;
     std::cout << "Dear " << first_name << ",\n";                    
     // 2
-    std::cout << "    How are you? I am fine. I miss you." << '\n'   // this is really example text that the book suggests
+    std::cout << "    How are you? I am fine. I miss you." << '\n'      // this is example text that the book suggests
               << "    The days get shorter as winter comes." << '\n';
     // 3
     std::string friend_name;
