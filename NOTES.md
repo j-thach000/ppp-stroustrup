@@ -92,6 +92,7 @@
 1. Write source code with a high-level language
 2. Translate the source with a compiler
 3. Produces machine code files
+*there is no guarantee for type safety
 
 // Linking Process
 1. Gather all object files and library files

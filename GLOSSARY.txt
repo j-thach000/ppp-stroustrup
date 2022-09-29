@@ -6,7 +6,7 @@
 << - insertion operator
     indicates the direction data is moving in 
 
-std::cout - object from <iostream> 
+std::cout - character output
     object that outputs data to console
 
 #include - directive 
@@ -15,6 +15,10 @@ std::cout - object from <iostream>
 
 main() - main function
     the function called by the program that is the starting point to execute statements
+
+cin - character input
+    an object from iostream that takes your keyboard input 
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -81,4 +85,62 @@ source code
 statement
     an instruction for the program to perform some action 
     *difference between the statement making the program do something and the program making the computer do something
+
+assignment
+    giving an object a value
+
+concatenation
+    putting together literals
+
+literals
+    values from the set of values that a data type uses
+
+conversion
+    changing a value that was associated with one data type to another type
+
+declarations    
+    the introduction of a name with its associated type into a scope
+
+decrement
+    composite assignment operator 
+    in this case it assigns the value of the variable - 1
+
+definition
+    specifies the entity to which the declared name refers to
+    we establish the associated object with the declared name vs just introducing a name
+
+increment
+    composite assignment operator   
+    assigns the value of the variable + 1
+
+initialization
+    introducing a name to the scope, giving it a data type, and giving it a value at the same time
+    basically define and assign at the same time for a variable
+
+name    
+    an identifier for an entity
+
+narrowing
+    assigning a value from a data type with a larger range of values to a smaller data type
+
+object
+    a region of memory that could be holding data of some type
+    
+operation
+    what can be done to a data type, ex: aritmetic operations
+
+operator    
+    the literal representation of the operations that can be done on a data type
+
+type    
+    a data type indicates what set of values and the operations that can be performed on that set of values
+
+type safety
+    considering whether or not there will be conversion and a loss of precision going from one data type to another
+
+value   
+    a piece of data with its associated type
+
+variable    
+    a named region of memory that can hold a value
 
