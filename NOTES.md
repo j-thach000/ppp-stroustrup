@@ -1,4 +1,5 @@
 // Mistakes
+0. Do programming as early as possible in order to avoid lower energy brute force solutions for exercises
 1. Forgetting intended \n characters when moving down a line (they represent move to the new line)
 2. Incorrectly tracing literals in "" as being mathematically evaluated
 3. In boolean, values other than 0 become 1
