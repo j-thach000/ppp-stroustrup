@@ -20,7 +20,7 @@ try
 
 	keep_window_open();	// For some Windows(tm) setups
 }
-catch (runtime_error e) {	// this code is to produceerror messages; it will be described in Chapter 5
+catch (runtime_error e) {	// this code is to produce error messages; it will be described in Chapter 5
 	cout << e.what() << '\n';
 	keep_window_open("~");	// For some Windows(tm) setups
 }
