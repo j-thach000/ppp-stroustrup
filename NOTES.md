@@ -1,3 +1,12 @@
+// Programming Techniques
+1. [3_6] Create logic that finds your necessary pieces ie smallest or largest instead of brute forcing all possible combinations
+2. [3_8] If we need to print a result, have a placeholder default for it and only change it with necessary logic, and THEN print with one line
+3. [General] Input
+    - division by zero
+    - nonsensical input
+4. [3_10] Have a loop to test programs more quickly even if the exercise doesn't say you need one
+
+
 // Mistakes
 0. Do programming as early as possible in order to avoid lower energy brute force solutions for exercises
 1. Forgetting intended \n characters when moving down a line (they represent move to the new line)
