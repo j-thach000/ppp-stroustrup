@@ -15,7 +15,7 @@ try
 	if (!cin) error("something went bad with the read");
 	string res = "even";
 	if (val%2) res = "odd";	// a number is even if it is 0 modulo 2 and odd otherwise
-							// val%2 produces a 0 or 1 which is in turn truth values
+							// val%2 produces either a zero value or non-zero which makes it true
 
 	cout << "The value " << val << " is an " << res << " number\n";
 
