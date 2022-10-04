@@ -14,13 +14,13 @@
 
 int main()
 {
-    std::cout << "Enter a number to check if it's even or odd: ";
-    int input = 0; // pg. 66 can use the modulo operator on int type
+    std::cout << "Please enter an integer to test if it's even or odd: ";
+    int input = 0;
     std::cin >> input;
     std::string result = "even";
-    if (input % 2 == 1) result = "odd";
+    if (input % 2) result = "odd"; // any non-zero result from the expression results in true 
 
-    std::cout << "The number " << input << " is " << result << ".\n";
+    std::cout << "The integer " << input << " is " << result << '\n';  
 
     keep_window_open();
 }
