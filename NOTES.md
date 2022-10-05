@@ -184,7 +184,7 @@
 // Data Types
 1. integer - just use copy assignment
 2. double - favor brace initialization to avoid narrowing conversion
-3. boolean - 0 is false and anything else is 1
+3. boolean - values of 0 is false and anything else becomes true truth value
 4. char - number range of -127 to 127
 - Very rare occasion to not intialize variables with types and value
     - a variable defined just to store user input
