@@ -1,11 +1,29 @@
-// Programming Techniques
-1. [3_6] Create logic that finds your necessary pieces ie smallest or largest instead of brute forcing all possible combinations
+// Studying Algorithm
+***do not give 100% coverage to topics first time***
+1. Work through chapter while playing around with example code in IDE
+2. Create notes to turn into anki cards for recitation
+3. [Drill] Complete drill
+4. [Terms] Add all terms to glossary file
+5. [Review] Answer any relevant review
+6. [Exercises] Complete any that have a solution from the author or look fun
+
+// Approach
+- Recommended 15 hours a week for self study, pacing at 2 chapters a week
+- Play around with as many chapter examples as possible
+- Note all key concepts and the blue/red/green markers
+- Do the drill
+- Punch in glossary terms in own words
+- Review 
+- Attempt exercises until I can identify the difficult ones
+- Try to solve at least one difficult one relative to own skill level
+
+// Programming Techniques (things learned from author's solutions)
+1. [3_6] Create logic that finds your necessary pieces, ex: smallest or largest instead of brute forcing all possible combinations
 2. [3_8] If we need to print a result, have a placeholder default for it and only change it with necessary logic, and THEN print with one line
-3. [General] Input
+3. [General] Checking Input
     - division by zero
     - nonsensical input
 4. [3_10] Have a loop to test programs more quickly even if the exercise doesn't say you need one
-
 
 // Mistakes
 0. Do programming as early as possible in order to avoid lower energy brute force solutions for exercises
@@ -60,6 +78,8 @@
 - Practice on exercises with incremental difficulty
 
 // Pedagogy (PPP Stroustrup)
+- pg 94 "If you have the ambition to build something reasonably permanent, you pay attention to matters of code structure and organization
+-        along the waym rather than having to come back and learn them after failures."
 - blue = key concepts and techniques
 - green = advice
 - red = warning
@@ -70,22 +90,13 @@
 - Review Questions: seen as a complement to the exercises to review conceptual information whereas exercises reinforce practical
 - Exercises: do enough to push the limit of what you understand as difficult (no expectation to do all of them)
 
+
 // PPP Misc
 - Anything he mentions is "because you'll almost certainly need it" 
 - "One sitting" per chapter isn't meant to be taken literally, realistically the drill + review + a few exercises will take a few days
 - The language of the book is very understated and things such as "This is often useful" means it's quietly emphasized but extremely important
 - "What comes after this book?" - 0.1.3
 - don't try to give 100% coverage to a topic the first time around
-
-// Approach
-- Recommended 15 hours a week for self study, pacing at 2 chapters a week
-- Play around with as many chapter examples as possible
-- Note all key concepts and the blue/red/green markers
-- Do the drill
-- Punch in glossary terms in own words
-- Review 
-- Attempt exercises until I can identify the difficult ones
-- Try to solve at least one difficult one relative to own skill level
 
 // PPP Header
 #include <iostream>
@@ -157,8 +168,6 @@
 12. Use the IDE's automatic formatting
 13. Avoid situations that can cause undefined behavior, such as uninitialized variables 
 
-
-
 // Fundamental types
 1. int
 2. float
@@ -216,7 +225,7 @@
 
 // Style (PPP)
 1. snake case
-2. capital letters for types
+2. capital letters for types (OOP)
 3. all capitals for macros
 
 // Misc
