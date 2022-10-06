@@ -98,24 +98,24 @@ literals
 conversion
     changing a value that was associated with one data type to another type
 
-declarations    
+declarations (not relevant yet as of ch04 10/5/22)    
     the introduction of a name with its associated type into a scope
 
 decrement
     composite assignment operator 
     in this case it assigns the value of the variable - 1
 
-definition
-    specifies the entity to which the declared name refers to
+definition (a kind of declaration statement)
+    specifies the entity to which the declared name refers to and its data type
     we establish the associated object with the declared name vs just introducing a name
 
 increment
     composite assignment operator   
     assigns the value of the variable + 1
 
-initialization
+initialization (https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
     introducing a name to the scope, giving it a data type, and giving it a value at the same time
-    basically define and assign at the same time for a variable
+    basically define and assign at the same time for a variable 
 
 name    
     an identifier for an entity
