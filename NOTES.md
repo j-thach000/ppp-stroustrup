@@ -35,6 +35,8 @@
 6. Incorrectly using the text input process (define string variable, prompt cin, format output)
 7. Missing semicolons (they represent the statement is done)
 8. Repeatedly using std::cout when text is being outputted in consecutive lines (see drill 3_1 comment 2)
+9. Be sure to specify environment setup as well before asking a question online
+10. Try compiling and running on windows to see if there's a difference
 
 // Deriving Knowledge
 0. Hardware
