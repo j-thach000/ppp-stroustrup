@@ -167,6 +167,7 @@
 11. Lines no longer than 80 chars
 12. Use the IDE's automatic formatting
 13. Avoid situations that can cause undefined behavior, such as uninitialized variables 
+14. Always test for bad input
 
 // Fundamental types
 1. int
@@ -222,6 +223,11 @@
 4. "-Wextra",
 5. "-Wsign-conversion",
 6. "-Werror"
+
+// Compiler arguments during setup
+-        "-std=c++17",
+-        "-stdlib=libc++",
+
 
 // Style (PPP)
 1. snake case
