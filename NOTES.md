@@ -254,3 +254,4 @@
 6. [An interview with Bjarne Stroustrup 4/22 - Time Spent on Learning Math](https://evrone.com/bjarne-stroustrup-interview)
 7. [Output precision without including a library](https://en.cppreference.com/w/cpp/io/ios_base/precision)
 8. [Formatting](https://www.learncpp.com/cpp-tutorial/whitespace-and-basic-formatting/)
+9. [Literals with i for clang compiler on Mac](https://www.reddit.com/r/cpp_questions/comments/xy1bj8/comment/irewhmm/?utm_source=share&utm_medium=web2x&context=3)
