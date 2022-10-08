@@ -227,9 +227,14 @@
 6. "-Werror"
 
 // Compiler arguments during setup
--        "-std=c++17",
--        "-stdlib=libc++",
+-  "-std=c++17",
+-  "-stdlib=libc++",
 
+// Clang compiler flags
+- "-pedantic-errors",
+- "-Wall",
+- "-Wextra",
+- "-Werror",
 
 // Style (PPP)
 1. snake case
