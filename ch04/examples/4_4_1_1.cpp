@@ -21,7 +21,6 @@ int main()
 
     // convert from inches to centimeters or centimeters to inches
     // a suffix "i" or "c" indicates the unit of the input
-    // works as intended on windows when compiled and ran but not macos
 
     constexpr double cm_per_inch = 2.54;
 
@@ -35,4 +34,9 @@ int main()
     // it should do exactly what we intended and spit out and error otherwise
     if (unit == 'i') std::cout << length << "in == " << length * cm_per_inch << "cm\n";
     else             std::cout << length << "cm == " << length / cm_per_inch << "in\n";
+
+    /*
+    the program works but not exactly with the same input as macos
+    something about the clang compiler thinking any xi input being an imaginary number (x being an integer)
+    */
 }
