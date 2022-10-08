@@ -1,0 +1,27 @@
+ch02: setting up a programming environment
+- compilation (translating the source code to machine)
+- linking (combining all the parts into the executable)
+
+ch03: getting, storing, and using data
+- reading/writing inputs from keyboard
+- storing input from keyboard via assignment and initialization (objects, variables)
+- handling data types: values, operations, and emphasizing type safety
+
+ch04: computation (getting a certain output from certain input)
+- emphasizing programmer ideals: correctness, simplicity, and efficiency
+- organizing a program by breaking down computations into pieces (abstraction, divide and conquer)
+
+- using expressions to compute values
+- using constant expressions to improve code readability (avoiding magic numbers)
+- using expressions that involve conversions between data types
+
+- using selection statements (if-else, switch)
+- using iterative statements (while, for)
+- using functions to specify and separate computations
+- using vectors to hold data for computations
+
+ch05: errors
+- dealing with errors
+- exceptions
+- debugging
+- testing
