@@ -247,6 +247,14 @@
 1. If stuck in a loop of user input, Ctrl+Z creates an end-of-input character which ends the program
 2. Variable names must be letters, digits, or underscores and must start with a letter
 
+// git
+1. git add . (add all files in directory to staging area)
+2. git commit -m "" (commit all staged files with a note)
+3. git status (local status of directory and staging area)
+4. git pull (download the remote content of the branch from github and update immediately)
+5. git fetch (download all commits, files, and compare the version you have with github)
+6. git 
+
 // Reference
 1. [Why does the main function have return type integer?](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c)
 2. [Capturing key presses without affecting the console?](https://stackoverflow.com/questions/421860/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed)
