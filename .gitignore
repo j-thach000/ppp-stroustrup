@@ -1,5 +1,5 @@
-//
 *.exe
 *.vscode
 *.dSYM
 *.DS_Store
+*executables
