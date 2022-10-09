@@ -4,7 +4,7 @@
 2. Create notes to turn into anki cards for recitation
 3. [Drill] Complete drill
 4. [Terms] Add all terms to glossary file
-5. [Review] Answer any relevant review
+5. [Review] Answer any relevant review (refer to PPP-guide.pdf for author's answers)
 6. [Exercises] Complete any that have a solution from the author or look fun
 
 // Approach
@@ -229,6 +229,8 @@
 // Compiler arguments during setup
 -  "-std=c++17",
 -  "-stdlib=libc++",
+-  "${fileDirname}/executables/${fileBasenameNoExtension}"
+
 
 // Clang compiler flags
 - "-pedantic-errors",
