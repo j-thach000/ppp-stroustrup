@@ -162,7 +162,7 @@
 4. Resolve all warnings as they come up
 5. [Turn warning levels up to max as learning](https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-warning-and-error-levels/)
 6. Treat warnings as errors
-7. Write comments liberally, as if explaining the program to someone who has no idea what the code does. Also, don't assumme you'll remember.
+7. Write comments liberally, as if explaining the program to someone who has no idea what the code does. Also, don't assume you'll remember.
 8. Prefer \n over std::endl when outputting text to console (easier to embed into text and read quickly)
 9. Favor brace initialization (ex: int a {5}) to disallow narrowing conversion (usually for very important values)
 10. Initialize variables upon creation 
@@ -229,7 +229,7 @@
 // Compiler arguments during setup
 -  "-std=c++17",
 -  "-stdlib=libc++",
--  "${fileDirname}/executables/${fileBasenameNoExtension}"
+-  "${fileDirname}/executables/${fileBasenameNoExtension}" // on macbook
 
 
 // Clang compiler flags
