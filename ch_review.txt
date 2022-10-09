@@ -13,7 +13,7 @@ ch04: computation (getting a certain output from certain input)
 
 - using expressions to compute values
 - using constant expressions to improve code readability (avoiding magic numbers)
-- using expressions that involve conversions between data types
+- using expressions that involve explicity conversions between data types (type{} and type())
 
 - using selection statements (if-else, switch)
 - using iterative statements (while, for)
