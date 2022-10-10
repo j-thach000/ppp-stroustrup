@@ -53,6 +53,14 @@
     - Input + Output
 2. Functions
 
+// Building blocks
+1. expressions
+2. statements
+    - selection (comparing a value against unique and distinct constants)
+        - strings require using if statements
+3. functions
+4. vectors
+
 // Insight
 - If you can't teach something then you probably defaulted to memorization and repetition.
 - Programs are just collections of instructions that manipulate data for a certain result
@@ -67,6 +75,9 @@
 - Instantiating is creating a new instance of an object, different from initializing a variable
 - With variables, they are of certain types 
 - Brace initialization is there so we can make the compiler tell us when we're about to lose precision on a value
+- You don’t demonstrate your cleverness by writing the most complex program. 
+- Rather, you demonstrate competence by writing the simplest code that does the job.
+- 
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program
