@@ -239,7 +239,7 @@
 
 // Compiler arguments during setup
 -  "-std=c++17",
--  "-stdlib=libc++",
+-  "-stdlib=libc++", // not needed for windows setup
 -  "${fileDirname}/executables/${fileBasenameNoExtension}" // on macbook
 
 
@@ -264,7 +264,7 @@
 3. git status (local status of directory and staging area)
 4. git pull (download the remote content of the branch from github and update immediately)
 5. git fetch (download all commits, files, and compare the version you have with github)
-6. git 
+6. git log (check commit history)
 
 // Reference
 1. [Why does the main function have return type integer?](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c)
