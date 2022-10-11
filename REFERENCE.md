@@ -45,21 +45,17 @@
 - C++ accesses memory indirectly through objects which we name, variables (objects assigned a location in memory)
 - Variables have an identifier (name), data type, and value
 
-1. Elements of Programming
-    - Data Types (leads to dealing with assignment and variables)
-    - Conditionals (control flow)
-    - Loops (iterative statements)
-    - Arrays (most basic way to hold data)
-    - Input + Output
-2. Functions
-
 // Building blocks
-1. expressions
+1. expressions (produce values)
 2. statements
-    - selection (comparing a value against unique and distinct constants)
-        - strings require using if statements
-3. functions
-4. vectors
+    - selection (choosing which statements to run)
+        - what do we want to happen depending on circumstance?
+    - iterative (repeating statements)
+        - what do we want to happen repeatedly? (body statement)
+        - what is the end condition to stop repeating? (termination criteria)
+        - how many times have we looped? (control variable)
+3. functions (execute a body of statements and expressions)
+4. vectors (store values)
 
 // Insight
 - If you can't teach something then you probably defaulted to memorization and repetition.
@@ -77,7 +73,7 @@
 - Brace initialization is there so we can make the compiler tell us when we're about to lose precision on a value
 - You don’t demonstrate your cleverness by writing the most complex program. 
 - Rather, you demonstrate competence by writing the simplest code that does the job.
-- 
+- Cleaner, explicit code is shorter than messy code
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program
