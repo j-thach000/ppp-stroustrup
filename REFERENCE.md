@@ -56,6 +56,7 @@
         - how many times have we looped? (control variable)
 3. functions (execute a body of statements and expressions)
 4. vectors (store values)
+    - we'll see more advanced "containers" in ch 20 and 21
 
 // Insight
 - If you can't teach something then you probably defaulted to memorization and repetition.
@@ -183,6 +184,9 @@
 2. float
 3. double
 4. bool
+
+// Operators
+- ++/-- must be applied to something with a memory address (variables, array elements, etc.)
 
 // Other relevant types
 1. string
