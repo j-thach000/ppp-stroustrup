@@ -240,7 +240,6 @@
 -  "-stdlib=libc++", // not needed for windows setup
 -  "${fileDirname}/executables/${fileBasenameNoExtension}" // on macbook
 
-
 // Clang compiler flags
 - "-pedantic-errors",
 - "-Wall",
