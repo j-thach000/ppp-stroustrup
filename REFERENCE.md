@@ -234,6 +234,8 @@
 6. "-Werror"
 
 // Compiler arguments during setup
+- ctrl+shift+p to generate .vscode folder
+- compile and then click the gear icon when it asks which compiler to use to generate tasks.json
 -  "-std=c++17",
 -  "-stdlib=libc++", // not needed for windows setup
 -  "${fileDirname}/executables/${fileBasenameNoExtension}" // on macbook
