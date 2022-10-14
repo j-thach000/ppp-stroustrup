@@ -1,21 +1,33 @@
 // Studying Algorithm
 ***do not give 100% coverage to topics first time***
-1. Work through chapter while playing around with example code in IDE
+***bulk of learning comes from drill, review, terms, and exercises***
+0. Remember to flip back to the chapter and review between any of the steps after 1
+1. *QUICKLY* work through chapter while playing around with example code in IDE
 2. Create notes to turn into anki cards for recitation
 3. [Drill] Complete drill
 4. [Terms] Add all terms to glossary file
 5. [Review] Answer any relevant review (refer to PPP-guide.pdf for author's answers)
-6. [Exercises] Complete any that have a solution from the author or look fun
+6. [Exercises] Complete any that have a solution from the author AND push the current limit of skill
 
 // Approach
 - Recommended 15 hours a week for self study, pacing at 2 chapters a week
 - Play around with as many chapter examples as possible
 - Note all key concepts and the blue/red/green markers
-- Do the drill
-- Punch in glossary terms in own words
-- Review 
-- Attempt exercises until I can identify the difficult ones
-- Try to solve at least one difficult one relative to own skill level
+- Try to bulldoze through chapter examples 
+
+// Book exercise solution ideals (see ref 11 at the bottom)
+/*
+My ideals for solutions are:
+- every program (unless stated otherwise) either produces a correct result or gives a reasonably clear error message.
+- no solution gratuitously violates the rules for good programming and design style promoted by the book (even though early solutions obviously can't use significant features only introduced in later chapters).
+- a solution does not use facilities not yet presented in the book.
+- every program is reasonably (but not verbosely) commented with comments appropriate for somone who has read the book thus far.
+- significant design choices are explicitly (if briefly) decribed.
+*/
+
+// Practice Problems (cpp-basics-chang)
+3_2 - scope of control variable
+
 
 // Programming Techniques (things learned from author's solutions)
 1. [3_6] Create logic that finds your necessary pieces, ex: smallest or largest instead of brute forcing all possible combinations
@@ -29,7 +41,7 @@
 0. Do programming as early as possible in order to avoid lower energy brute force solutions for exercises
 1. Forgetting intended \n characters when moving down a line (they represent move to the new line)
 2. Incorrectly tracing literals in "" as being mathematically evaluated
-3. In boolean, values other than 0 become 1
+3. In boolean, values other than 0 (false) become 1 (true)
 4. Not thoroughly checking meaning of messages in GitHub before acting (no newline at end of file) resulting in duplicate pull request
 5. Careless mistakes on data entry for print text
 6. Incorrectly using the text input process (define string variable, prompt cin, format output)
@@ -57,35 +69,26 @@
 3. functions (execute a body of statements and expressions)
 4. vectors (store values)
     - we'll see more advanced "containers" in ch 20 and 21
+    - half-open sequences are used to describe the range of a vector
+    - it doesn't need to have its size specified nor is its size fixed
 
 // Insight
 - If you can't teach something then you probably defaulted to memorization and repetition.
 - Programs are just collections of instructions that manipulate data for a certain result
 - As C++ is so vast, it's important to focus on what is possible vs memorizing how to do it
-- A declaration is a statement that gives a name to an object
-- A definition is a declaration that sets aside memory for the object
-- Assignment is giving a value to a variable
-- An uninitialized variable has no value
-- Initialization is defining and assigning the variable at the same time (via copy =, or brace {})
-- = is considered the assignment operator
 - C++ doesn't automatically initialize variables to certain value (like 0) and instead the default value is whatever value that memory address had (could just be random garbage which causes undefined behavior)
 - Instantiating is creating a new instance of an object, different from initializing a variable
-- With variables, they are of certain types 
-- Brace initialization is there so we can make the compiler tell us when we're about to lose precision on a value
 - You don’t demonstrate your cleverness by writing the most complex program. 
 - Rather, you demonstrate competence by writing the simplest code that does the job.
 - Cleaner, explicit code is shorter than messy code
+- Constantly think about each new concept being a tool in our portfolio and we have more and more building blocks
+- An understanding of ideals and reasons allows you to generalize
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program
 - Fix your own bugs and learn to use a debugger
 - Experiment and play with examples to develop intuition of what breaks and works.
 - Write short programs using recently learned concepts.
-
-// Pedagogy (Saad)
-- Introduce a fundamental concept
-- Show an example with application and motivation
-- Practice on exercises with incremental difficulty
 
 // Pedagogy (PPP Stroustrup)
 - pg 94 "If you have the ambition to build something reasonably permanent, you pay attention to matters of code structure and organization
@@ -108,12 +111,13 @@
 - "What comes after this book?" - 0.1.3
 - don't try to give 100% coverage to a topic the first time around
 
-// PPP Header
-#include <iostream>
+// PPP Libraries provided by header
+#include <iostream> // ch01-3
 #include <string>
-#include <vector>
+#include <vector> // ch04
 #include <algorithm>
 #include <cmath>
+- All of these can include member functions which we call with dot notation
 
 // Programming Languages
 - Machine (directly understood by CPU, seen as 0s and 1s)
@@ -149,7 +153,7 @@
 - functions (a named collection of instructions that execute sequentially)
 
 // PPP Bjarne's Header File (std_lib_facilities.h)
-1. Created for QOL while learning the language (don't worry about the libraries and convenient functions)
+1. Created for QOL while learning the language (don't worry about the libraries and provides us convenient functions)
 2. keep_window_open() is called to keep the window open (doesn't work if input buffer not flushed)
 
 // C++ Libraries (code others have written, precompiled for reuse in other programs)
@@ -192,6 +196,7 @@
 1. string
     - a string read by the >> operator terminates after the first white space 
     - ie it reads a single word and then stops
+    - "" is just an empty string, whereas " " technically contains a space
 
 // Comments
 1. What (outside): describe what the library, function, or program does as a general overview
@@ -268,6 +273,7 @@
 6. git log (check commit history)
 
 // Reference
+0. [Approach to teaching Modern C++ Bjarne Stroustrup CppCon 2017](https://www.youtube.com/watch?v=fX2W3nNjJIo)
 1. [Why does the main function have return type integer?](https://stackoverflow.com/questions/204476/what-should-main-return-in-c-and-c)
 2. [Capturing key presses without affecting the console?](https://stackoverflow.com/questions/421860/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed)
 3. [How do I generate a random number?](https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c)
@@ -278,3 +284,4 @@
 8. [Formatting](https://www.learncpp.com/cpp-tutorial/whitespace-and-basic-formatting/)
 9. [Literals with i for clang compiler on Mac](https://www.reddit.com/r/cpp_questions/comments/xy1bj8/comment/irewhmm/?utm_source=share&utm_medium=web2x&context=3)
 10. [Why does git say I'm up to date when clearly not](https://stackoverflow.com/questions/27828404/why-does-git-status-show-branch-is-up-to-date-when-changes-exist-upstream)
+11. [Book exercise solution ideals](https://www.stroustrup.com/Programming/Solutions/exercise_solutions.html)
