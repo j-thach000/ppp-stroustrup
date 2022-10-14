@@ -16,8 +16,8 @@ std::cout - character output
 main() - main function
     the function called by the program that is the starting point to execute statements
 
-cin - character input
-    an object from iostream that takes your keyboard input 
+std::cin - character input
+    object from iostream that takes your keyboard input 
 
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -51,6 +51,7 @@ header
     at the top of the program
     it's a file that acts as an interface between the separately compiled parts of the program (object files)
     it allows these object files to access declarations which are just named entities (objects, variables, functions, etc.)
+    **the top of the for loop notation that includes the control variable and loop condition
 
 IDE (integrated development environment)
     a gui program with a suite of tools including:
