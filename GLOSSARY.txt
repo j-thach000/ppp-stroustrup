@@ -101,6 +101,8 @@ conversion
 
 declarations (not relevant yet as of ch04 10/5/22)    
     the introduction of a name with its associated type into a scope
+    A declaration is a definition unless it [...] is a class name declaration [...].
+    https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration
 
 decrement
     composite assignment operator 

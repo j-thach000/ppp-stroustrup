@@ -285,3 +285,4 @@ My ideals for solutions are:
 9. [Literals with i for clang compiler on Mac](https://www.reddit.com/r/cpp_questions/comments/xy1bj8/comment/irewhmm/?utm_source=share&utm_medium=web2x&context=3)
 10. [Why does git say I'm up to date when clearly not](https://stackoverflow.com/questions/27828404/why-does-git-status-show-branch-is-up-to-date-when-changes-exist-upstream)
 11. [Book exercise solution ideals](https://www.stroustrup.com/Programming/Solutions/exercise_solutions.html)
+12. [Impact of increment/decrement operator before or after the control variable in a for loop header](https://stackoverflow.com/questions/4706199/post-increment-and-pre-increment-within-a-for-loop-produce-same-output)
