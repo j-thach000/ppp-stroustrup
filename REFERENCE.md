@@ -17,7 +17,8 @@
 
 // Book exercise solution ideals (see ref 11 at the bottom)
 /*
-My ideals for solutions are:
+Focus on learning the big concepts and don't get bogged down on pointless details.
+My (author's) ideals for solutions are:
 - every program (unless stated otherwise) either produces a correct result or gives a reasonably clear error message.
 - no solution gratuitously violates the rules for good programming and design style promoted by the book (even though early solutions obviously can't use significant features only introduced in later chapters).
 - a solution does not use facilities not yet presented in the book.
@@ -83,6 +84,8 @@ My ideals for solutions are:
 - Cleaner, explicit code is shorter than messy code
 - Constantly think about each new concept being a tool in our portfolio and we have more and more building blocks
 - An understanding of ideals and reasons allows you to generalize
+- Try to avoid repeatedly writing out print statements due to writing out various cases of selection statement logic (see drill 4_2-4_5)
+- cont. above, write out logic that finds what you need (ex: smallest value) and then insert it into a final print statement
 
 // Pedagogy (learncpp)
 - Manually type out each example, thinking about what each line contributes to the program

@@ -100,17 +100,21 @@ conversion
     changing a value that was associated with one data type to another type
 
 declarations (not relevant yet as of ch04 10/5/22)    
+    "this exists"
     the introduction of a name with its associated type into a scope
     A declaration is a definition unless it [...] is a class name declaration [...].
     https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration
+    
 
 decrement
     composite assignment operator 
     in this case it assigns the value of the variable - 1
 
 definition (a kind of declaration statement)
+    "this is what it is"
     specifies the entity to which the declared name refers to and its data type
     we establish the associated object with the declared name vs just introducing a name
+    instantiate/implement an actual instance
 
 increment
     composite assignment operator   
