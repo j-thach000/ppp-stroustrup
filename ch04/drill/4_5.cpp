@@ -40,7 +40,8 @@ int main()
         std::cout << "The smaller value is: " << smaller << '\n'
                   << " The larger value is: " << larger << '\n';
         }
-        else std::cout << "The values are equal.\n";
+        else std::cout << "The numbers are equal.\n";
+        if (std::abs(a - b) < 0.01) std::cout << "The numbers are almost equal.\n";
 
         std::cout << "--------------------------------------------" << '\n'
                   << "Enter '|' at any time to abort the program.\n"
