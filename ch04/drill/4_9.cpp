@@ -1,4 +1,7 @@
-#include "std_lib_facilities.h"
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
 
 /*
 9. Keep track of the sum of values entered (as well as the smallest and the
@@ -14,9 +17,8 @@ The whole point of this drill seemed to emphasize the use case of vectors.
 int main()
 {
     double current = 0;
-    double sum = 0;
     std::string unit = "";
-    vector<double> user_input_storage;
+    std::vector<double> user_input_storage;
 
     // conversion factors (cm, m, in, ft)
     constexpr double cm_per_meter = 100;
@@ -24,25 +26,28 @@ int main()
     constexpr double in_per_foot  = 12;
 
     std::cout << "--------------------------------------------" << '\n';    
-    std::cout << "Input: ";
     // a loop that reads in certain units and converts them while tracking the smallest and largest value seen
     while (std::cin >> current >> unit)
     {
         std::cout << "--------------------------------------------" << '\n';
 
         // exclude input without units or "illegal" representation
-        if (unit != "cm" || unit != "m" || unit != "in" || unit != "ft")
-            {
-            std::cout << "Your input contains an illegal or unrepresented unit.\n";
-            break;
-            }
-        else 
+        if (unit == "cm" || unit == "m" || unit == "in" || unit == "ft")
+        {
             std::cout << "Your input was " << current << unit << ".\n";
+        }
+        else 
+        {
+            std::cout << "Your input was invalid. Unsupported unit or lack of unit provided.\n"
+                      << "--------------------------------------------" << '\n';
+            break;
+        }
 
         // convert the input to meters
-        if (unit == "cm") current = current / cm_per_meter;
+        if      (unit == "cm") current = current / cm_per_meter;
         else if (unit == "in") current = (current * cm_per_inch) / cm_per_meter; // in to cm, cm to m
         else if (unit == "ft") current = ((current * in_per_foot) * cm_per_inch) / cm_per_meter; // ft to in, in to cm, cm to m
+        
         std::cout << "Your input converted to meters for storage is " << current << ".\n";
 
         // push user input into a vector
@@ -52,13 +57,14 @@ int main()
         std::cout << " Values stored: " << user_input_storage.size() << '\n';
 
         // sort the array to find the smallest and largest elements
-        sort(user_input_storage);
+        std::sort(user_input_storage.begin(), user_input_storage.end());
         std::cout << "Smallest value: " << user_input_storage[0] << '\n'
                   << " Largest value: " << user_input_storage[user_input_storage.size() - 1] << '\n';
 
         // print total sum of values stored
+        double sum = 0;
         for (auto x : user_input_storage)  sum += x;
-        std::cout << "Sum           : " << sum << '\n';
+        std::cout << "           Sum: " << sum << '\n';
 
         std::cout << "--------------------------------------------" << '\n'
                   << "Enter '|' at any time to abort the program.\n"
