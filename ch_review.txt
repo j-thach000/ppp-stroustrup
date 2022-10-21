@@ -1,17 +1,32 @@
 ch02: setting up a programming environment
+[start] 9/21/22
+[end]   9/23/22
+[days]  3
 - compilation (translating the source code to machine)
 - linking (combining all the parts into the executable)
 
 ~~~
-
 ch03: getting, storing, and using data
+[start] 9/23/22 
+[end]  10/04/22
+[days]  13
 - reading/writing inputs from keyboard
 - storing input from keyboard via assignment and initialization (objects, variables)
 - handling data types: values, operations, and emphasizing type safety
 
 ~~~
-
 ch04: computation (getting a certain output from certain input)
+[start] 10/04/22
+[end]   10/19/22
+[days]  15
+
+from the chapter postscript:
+"you can now do everything that can be done using a computer - the rest is details!"
+We have most of the tools now to express every computation.
+The main skill to grind is designing programs with 3 main ideals in mind: correct, maintainable/simple, and efficient.
+The author emphasizes doing this with reasonable effort.
+I'm taking this as practice everyday, while writing something that pushes my current skill level.
+
 - emphasizing programmer ideals: correctness, simplicity, and efficiency
 - organizing a program by breaking down computations into pieces (abstraction, divide and conquer)
 - ideal function design: it logically does one computation, and needs no documentation to understand
@@ -31,8 +46,11 @@ ch04: computation (getting a certain output from certain input)
 = using sort algorithm 
 
 ~~~
-
 ch05: errors
+[start] 10/20/22
+[end]   
+[days estimate] 4, so end on 10/23/22
+[days actual]   
 - sources of errors
 - types of errors
 - exceptions (tell us what went wrong)

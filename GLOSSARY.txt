@@ -19,6 +19,47 @@ main() - main function
 std::cin - character input
     object from iostream that takes your keyboard input 
 
+if (condition) statement
+    a statement occurs if the condition is met
+
+else statement
+    explicitly happens as an alternative as an if statement fails
+
+switch (value)
+{
+    case 'constant':
+        body statement;
+        break;
+}
+    a more optimized version of if statements if you're comparing a value
+    against constants (integers or chars)
+
+while (condition) statement 
+    repeats the body statement as long as the condition is fulfilled
+
+for (header) statement  
+    an optimized syntax version of the while loop 
+    the control variable, increment/decrement, and loop condition are neatly in the header
+    used for when the amount of iterations is known 
+
+for (type identifier : container) - range-for-statement
+    syntax that has the specific use case of iterating through a container
+    it expresses the math concept of a half-open sequence (beginning inclusive, ending exclusive)
+    
+push_back()
+    inserts the argument into the container as the last element
+
+size()
+    returns the total amount of elements in the container
+
+sort()
+    for now I just know it organizes the container from smallest to largest elements
+
+vector<type> identifier
+    a container that has no fixed size 
+    at creation it doesn't need its sized specified
+    operations: sort, size, push_back, identifier[index]
+    ideally should iterate through it with a range for loop
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -150,4 +191,60 @@ value
 
 variable    
     a named region of memory that can hold a value
+
+abstraction 
+    one of the techniques of problem solving (breaking problems down into pieces)
+    an implementation that obscures unnecessary detail (ex: calling a library feature)
+
+computation
+    creating a program to get a certain output from certain inputs
+
+conditional statement   
+    determines what actions a computer takes depending on inputs and data so feature
+
+divide and conquer
+    one of the problem solving techniques
+    breaking a problem down into smaller computations
+
+expression 
+    a statement comprised of operator and operands that produce a value
+
+input
+    data going into the computer 
+
+output
+    the result of actions we perform on inputs
+
+iteration
+    traversal over a data structure
+
+loop
+    repeating something over and over
+    ex: while or for loops
+
+lvalue
+    the expression that appears on the left hand side of assignment statements
+    an object that has an identifiable memory address
+
+rvalue
+    the expression that appears on the right side of an assignment statement
+    data without any memory address, such as literals
+
+member function
+    function declared in the scope of a class (I just know them as library features currently)
+    ex: size(), push_back( )
+
+repetition
+    doing something over and over
+    while, for
+
+selection
+    statements that determine which statements occur
+
+statement   
+    an action that the program carries out
+
+
+
+
 

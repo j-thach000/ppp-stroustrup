@@ -289,3 +289,4 @@ My (author's) ideals for solutions are:
 10. [Why does git say I'm up to date when clearly not](https://stackoverflow.com/questions/27828404/why-does-git-status-show-branch-is-up-to-date-when-changes-exist-upstream)
 11. [Book exercise solution ideals](https://www.stroustrup.com/Programming/Solutions/exercise_solutions.html)
 12. [Impact of increment/decrement operator before or after the control variable in a for loop header](https://stackoverflow.com/questions/4706199/post-increment-and-pre-increment-within-a-for-loop-produce-same-output)
+13. [lvalue vs rvalue](https://stackoverflow.com/questions/9406121/what-exactly-is-an-r-value-in-c)
