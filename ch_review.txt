@@ -56,5 +56,5 @@ ch05: errors
 - exceptions (tell us what went wrong)
 - estimation (what does the right answer look like, not what exactly is it)
 - debugging
-- pre/post-conditions (addressing valid input and output of a computation)
+- pre/post-conditions (addressing valid input and output of a computation) *** most important concepts according to PPP-guide
 - testing
