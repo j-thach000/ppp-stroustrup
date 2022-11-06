@@ -61,6 +61,21 @@ vector<type> identifier
     operations: sort, size, push_back, identifier[index]
     ideally should iterate through it with a range for loop
 
+try
+    a block of statements actively looking for thrown exceptions
+
+throw
+    signals an exception or error case has occurred
+    in a try block
+    execution immediately moves to a catch block that can handle the expcetion
+
+catch
+    a block of statements that handles exceptions for a single data type
+
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 # concepts
@@ -124,6 +139,7 @@ source code
     the code written in a high level language before it is compiled
     it's a series of statements which act as instructions for the hardware
 
+// ch 3 objects/types/values (how do we get, store and use data)
 statement
     an instruction for the program to perform some action 
     *difference between the statement making the program do something and the program making the computer do something
@@ -192,6 +208,7 @@ value
 variable    
     a named region of memory that can hold a value
 
+// ch 4 computation (how do we get desired outputs from certain inputs)
 abstraction 
     one of the techniques of problem solving (breaking problems down into pieces)
     an implementation that obscures unnecessary detail (ex: calling a library feature)
@@ -244,7 +261,58 @@ selection
 statement   
     an action that the program carries out
 
+// ch 5 debugging (organizing programs to minimize errors)
+compiler-time error
+    composed of syntax and type errors
+    first line of defense against errors in a program as the program is translated to machine code
 
+syntax error
+    program doesn't follow the rules of the programming language
 
+type error  
+    mismatching or concerns about the type of the data in the program
 
+link-time error
+    functions must be defined only once but can be declared many times
 
+run-time error
+    errors while the program executes
+
+range error 
+    trying to access an index beyond a container's range
+
+argument error
+    incorrect argument inputted into a function
+
+logic error
+    getting incorrect output after compiler-time to run-time errors 
+
+assertion
+    a statement that assumes something must be always true by that point in the program
+
+invariant 
+    something that must be true in the program by that point 
+
+container 
+    object that holds elements 
+    ex: vector
+
+debugging
+    searching and removing errors in a program
+
+exception
+    a way to deal with errors
+    mechanically separates the detection and handling of an error
+
+pre-condition
+    expectations of an argument for a function for it to work as expected
+
+post-condition
+    what is the output of the function
+
+requirement
+    description of the intended behavior of a program
+    expectations/assumptions of arguments for a function
+
+testing
+    systematically searching for errors
