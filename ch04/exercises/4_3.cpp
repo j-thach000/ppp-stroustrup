@@ -36,27 +36,19 @@ computations for:
 
 int main()
 {
-    // input and store all distances
     std::vector<double> distancesOfCities;
     for (double input_distance; std::cin >> input_distance;)
     {
         distancesOfCities.push_back(input_distance);
     }
 
-    // sum all values
     double sumOfDistances = 0.0;
     for (auto x : distancesOfCities) sumOfDistances += x;
     std::cout << "Sum of all distances  : " << sumOfDistances << '\n';
 
-    // sort all values
     std::sort(distancesOfCities.begin(), distancesOfCities.end());
 
-    // smallest distance
     std::cout << "Smallest distance     : " << distancesOfCities[0] << '\n';
-
-    // biggest distance
     std::cout << "Biggest distance      : " << distancesOfCities[distancesOfCities.size() - 1] << '\n';
-
-    // mean distance
     std::cout << "Mean distance         : " << sumOfDistances / distancesOfCities.size() << '\n';
 }
